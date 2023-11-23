@@ -212,15 +212,6 @@ a:hover {
   background: #ea5f8a;
 }
 
-.bx-download {
-  margin-left: 20px;
-  line-height: 110px;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 24px;
-  background: #ea5f8a;
-}
-
 .clear {
   clear: both;
 }
@@ -777,21 +768,21 @@ div.selector {
   padding: 0;
 }
 .breadcrumbs {
-  width: 100% !important;
-  overflow: hidden !important
+  width: 100%;
+  overflow: hidden;
 }
 .breadcrumbs li {
-  float: left !important
-  padding: 0 11px 0 19px !important
-  background: url(../images/ico_arrows.png) no-repeat 0 50% !important
-  color: #ea5f8a !important
+  float: left;
+  padding: 0 11px 0 19px;
+  background: url(../images/ico_arrows.png) no-repeat 0 50%;
+  color: #ea5f8a;
 }
 .breadcrumbs li:first-child {
-  background-image: none !important
-  padding: 0 11px 0 0 !important
+  background-image: none;
+  padding: 0 11px 0 0;
 }
 .breadcrumbs a {
-  color: #b4aaa5 !important
+  color: #b4aaa5;
 }
 .item-product {
   border-radius: 0;
@@ -1334,4 +1325,14 @@ div.selector select {
     background-image: url(../images/btn_delete@x2.png);
     background-size: 27px 27px;
   }
+}
+
+.bx-download {
+  background-color: #ea5f8a;
+  color: white;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
 }
