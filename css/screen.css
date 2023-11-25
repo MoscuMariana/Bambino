@@ -65,6 +65,10 @@
   .container .bottom-slider .btn-left {
     left: 200px;
   }
+
+  .item-product {
+    margin-left: 0px;
+  }
   .block-advice {
     width: 550px;
     padding: 21px 21px 21px;
@@ -462,9 +466,7 @@
   .content .box_images h1 {
     margin: 0 0 80px;
   }
-  .form-newsletter {
-    margin: 5px 10px 0 0;
-  }
+
   .block-advice .advice-holder {
     padding: 0 0 0 10px;
   }
