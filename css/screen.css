@@ -12,6 +12,12 @@
     width: 600px;
     padding: 21px 21px 21px;
   }
+  .form-newsletter {
+    width: 420px;
+  }
+  .form-newsletter input[type="text"] {
+    width: 300px;
+  }
 }
 @media only screen and (max-width: 1190px) {
   .content .box_images {
@@ -22,22 +28,22 @@
     float: none;
     overflow: hidden;
     width: 870px;
-    margin: auto;
+    margin: 0 auto;
   }
   .box_image_list li {
     float: left;
     width: 32.3%;
-    margin: auto;
+    margin: 0 0 0 1.5%;
   }
   .box_image_list li:first-child {
-    margin: auto;
+    margin: 0;
   }
   .container .bottom-slider {
-    width: 80%;
-    padding: 10px 0 10px;
+    width: 100%;
+    padding: 24px 0 20px;
   }
   .container .bottom-slider .slides {
-    width: 804px !important;
+    width: 904px !important;
   }
   .footer-content ul.left_side {
     width: 70%;
@@ -63,11 +69,7 @@
     right: 290px;
   }
   .container .bottom-slider .btn-left {
-    left: 200px;
-  }
-
-  .item-product {
-    margin-left: auto;
+    left: 290px;
   }
   .block-advice {
     width: 550px;
@@ -84,24 +86,24 @@
     padding: 0 0 0 21px;
   }
   .container {
-    margin: auto;
+    margin: 28px 0 30px 0;
   }
 }
 @media only screen and (max-width: 1050px) {
   .block-advice {
     width: 100%;
-    margin: auto;
+    margin: 0 0 20px;
     float: none;
     overflow: hidden;
     padding: 21px 0;
   }
   .banner_box {
-    margin: auto;
+    margin: 0 auto 20px;
     float: none;
   }
   .form-newsletter {
     width: 70%;
-    margin: auto;
+    margin: 5px 21px 0 0;
   }
   .form-newsletter input[type="text"] {
     width: 80%;
@@ -114,7 +116,7 @@
     width: auto;
     display: inline-block;
     text-align: center;
-    margin: auto;
+    margin: 20px 0 0;
   }
   .top-bar .form-sort .row {
     float: none;
@@ -127,7 +129,7 @@
   }
   div.fancy-select {
     width: 145px;
-    margin: auto;
+    margin: 0 auto;
   }
   div.fancy-select div.trigger {
     min-width: 100px;
@@ -170,7 +172,7 @@
     float: none;
     width: 461px;
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto 40px;
   }
   .bx-wrapper {
     width: 461px;
@@ -219,7 +221,7 @@
     width: 452px !important;
   }
   .content .box_images h1 {
-    margin: auto;
+    margin: 0 0 130px;
     font-size: 40px;
     line-height: 42px;
   }
@@ -227,7 +229,9 @@
     font-size: 22px;
     line-height: 26px;
   }
-
+  .checkout span {
+    margin: 12px 10px 12px 10px;
+  }
   .tools-nav {
     width: 165px;
   }
@@ -372,7 +376,7 @@
     vertical-align: middle;
   }
   .list-table .rows img {
-    margin: auto;
+    margin: 0 auto 20px;
     text-align: center;
     vertical-align: middle;
   }
@@ -380,7 +384,7 @@
     display: block;
     font-size: 18px;
     line-height: 22px;
-    margin: auto;
+    margin: 0 0 20px;
     color: #ea5f8a;
   }
   .rows-holder .rows {
@@ -395,7 +399,7 @@
   }
   .list-table .rows-delete {
     width: 40px;
-    margin: auto;
+    margin: 0 0 0 auto;
   }
   .list-table div.fancy-select {
     width: 77px;
@@ -440,7 +444,7 @@
     margin: 10px 0 10px;
   }
   .content .box_images h1 {
-    margin: auto;
+    margin: 0 0 100px;
   }
   .menu_trigger {
     top: 110px;
@@ -454,11 +458,11 @@
   .content .box_images h1 {
     font-size: 34px;
     line-height: 36px;
-    margin: auto;
+    margin: 0 0 20px;
   }
   .content .box_images h2 {
     font-size: 19px;
-    line-height: auto;
+    line-height: 21px;
   }
   .content .box_images .logo_2 {
     margin: 0 0 10px;
@@ -466,7 +470,9 @@
   .content .box_images h1 {
     margin: 0 0 80px;
   }
-
+  .form-newsletter {
+    margin: 5px 10px 0 0;
+  }
   .block-advice .advice-holder {
     padding: 0 0 0 10px;
   }
@@ -728,6 +734,16 @@
     display: block;
     float: left;
   }
+  .checkout span {
+    margin: 7px 10px 7px 7px;
+  }
+  .checkout {
+    width: 98%;
+  }
+  .checkout .btn.btn_checkout {
+    margin: 0 7px 7px;
+    width: 96%;
+  }
 }
 @media screen and (min-width: 240px) and (max-width: 420px) {
   .container .bottom-slider .btn-right {
@@ -735,6 +751,9 @@
   }
   .container .bottom-slider .btn-left {
     left: 5px;
+  }
+  .form-newsletter {
+    margin: 5px 6px 0 0;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -747,10 +766,7 @@
     font-size: 10px;
     line-height: 15px;
   }
-}
-@media (max-width: 979px) {
-  .no-margin-mobile {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+  .box_sub_total {
+    width: 280px;
   }
 }
