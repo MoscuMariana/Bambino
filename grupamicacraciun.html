@@ -806,51 +806,123 @@
               </li>
 
 
-
-
-                
-                <div id="tabs">
-                  <ul>
-                    <li><a href="#tabs-1">Informații</a></li>
-                    <li><a href="#tabs-2">Printează</a></li>
-                    <li><a href="#tabs-3">Reviews</a></li>
-                  </ul>
-                  <div id="tabs-1">
-                    Toate aceste resurse au fost create cu drag, cât mai
-                    colorate și atrăgătoare pentru cei mici, sunt ideale pentru
-                    a-ți oferi o mulțime de idei interesante pe care să le pui
-                    în practică alături de micuții de la grupa mică.
-                  </div>
-                  <div id="tabs-2">
-                    Dacă nu ai o imprimantă color acasă, îți recomandăm să le
-                    listezi la un print center. Sunt mai ochioase atunci când au
-                    și culoare
-                  </div>
-                  <div id="tabs-3">
-                    <ul class="reviews">
-                      <li>
-                        <p class="name">Andreea</p>
-                        <p>
-                          Multumesc pentru materiale si mult succes in
-                          continuare.
-                        </p>
-                      </li>
-                      <li class="light">
-                        <p class="name">Elisabeta</p>
-                        <p>Astept cu nerabdare urmatoarele materiale</p>
-                      </li>
-                      <li>
-                        <p class="name">Tudor</p>
-                        <p>Pe cand si materiale pentru grupa mare?</p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="top-bar top-bar-add">
+                <ul class="paging">
+                  <li class="prev"><a href="#">prev</a></li>
+                  <li><a href="#">1</a></li>
+                  <li class="active"><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li class="next"><a href="#">next</a></li>
+                </ul>
               </div>
-              <div class="clear"></div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
+      </div>
+  
+<!--Portofolio start-->
+<style media="screen">
+
+	body{
+	  line-height: 1.5;
+	  font-family: sans-serif;
+	}
+	*{
+	  margin:0;
+	  box-sizing: border-box;
+
+	}
+	.container{
+	  max-width: 1170px;
+	  margin:auto;
+	}
+	.row{
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	img{
+	  max-width: 100%;
+	  vertical-align: middle;
+	}
+	/*.gallery*/
+	.gallery{
+	  width: 100%;
+	  display: block;
+	  min-height: 100vh;
+	  background-color: rgb(196, 235, 245);
+	  padding: 100px 0;
+	}
+	.gallery .gallery-filter{
+	  padding: 0 15px;
+	  width: 100%;
+	  text-align: center;
+	  margin-bottom: 40px;
+	}
+	.gallery .gallery-filter .filter-item{
+	  color: #ffffff;
+	  font-size: 17px;
+	  border: 2px solid white;
+	  text-transform: uppercase;
+	  display: inline-block;
+	  border-radius: 20px;
+	  margin-right: 8px;
+	  cursor: pointer;
+	  padding: 8px 20px 8px 20px;
+	  line-height: 1.2;
+	  transition: all 0.3s ease;
+	}
+	.gallery .gallery-filter .filter-item.active{
+	  color: white;
+	  border-color : #16b5ef;
+	  background: #16b5ef;
+	}
+	.gallery .gallery-item{
+	  width: calc(100% / 3);
+	  padding: 15px;
+	
+	}
+	.gallery .gallery-item-inner img{
+	  width: 100%;
+	  border: 3px solid #d4dad9;
+	}
+	.gallery .gallery-item.show{
+	  animation: fadeIn 0.5s ease;
+	}
+	@keyframes fadeIn{
+	  0%{
+		opacity: 0;
+	  }
+	  100%{
+		opacity: 1;
+	  }
+	}
+	.gallery .gallery-item.hide{
+	  display: none;
+	}
+	
+	/*responsive*/
+	@media(max-width: 491px){
+	  .gallery .gallery-item{
+		width: 50%;
+	  }
+	}
+	@media(max-width: 467px){
+		.gallery .gallery-item{
+		width: 100%;
+	  }
+	  .gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	  }
+	}
+	
+	  </style>
+
+
+
+               
+    
       </div>
       <footer id="footer">
         <div class="footer-content">
