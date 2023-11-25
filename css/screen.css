@@ -12,12 +12,6 @@
     width: 600px;
     padding: 21px 21px 21px;
   }
-  .form-newsletter {
-    width: 420px;
-  }
-  .form-newsletter input[type="text"] {
-    width: 300px;
-  }
 }
 @media only screen and (max-width: 1190px) {
   .content .box_images {
@@ -28,22 +22,22 @@
     float: none;
     overflow: hidden;
     width: 870px;
-    margin: 0 auto;
+    margin: auto;
   }
   .box_image_list li {
     float: left;
     width: 32.3%;
-    margin: 0 0 0 1.5%;
+    margin: auto;
   }
   .box_image_list li:first-child {
-    margin: 0;
+    margin: auto;
   }
   .container .bottom-slider {
-    width: 100%;
-    padding: 20px 0 20px;
+    width: 80%;
+    padding: 10px 0 10px;
   }
   .container .bottom-slider .slides {
-    width: 904px !important;
+    width: 804px !important;
   }
   .footer-content ul.left_side {
     width: 70%;
@@ -86,24 +80,24 @@
     padding: 0 0 0 21px;
   }
   .container {
-    margin: 28px 0 30px 0;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 1050px) {
   .block-advice {
     width: 100%;
-    margin: 0 0 20px;
+    margin: auto;
     float: none;
     overflow: hidden;
     padding: 21px 0;
   }
   .banner_box {
-    margin: 0 auto 20px;
+    margin: auto;
     float: none;
   }
   .form-newsletter {
     width: 70%;
-    margin: 5px 21px 0 0;
+    margin: auto;
   }
   .form-newsletter input[type="text"] {
     width: 80%;
@@ -116,7 +110,7 @@
     width: auto;
     display: inline-block;
     text-align: center;
-    margin: 10px 0 0;
+    margin: auto;
   }
   .top-bar .form-sort .row {
     float: none;
@@ -129,7 +123,7 @@
   }
   div.fancy-select {
     width: 145px;
-    margin: 0 auto;
+    margin: auto;
   }
   div.fancy-select div.trigger {
     min-width: 100px;
@@ -172,7 +166,7 @@
     float: none;
     width: 461px;
     overflow: hidden;
-    margin: 0 auto 40px;
+    margin: auto;
   }
   .bx-wrapper {
     width: 461px;
@@ -221,7 +215,7 @@
     width: 452px !important;
   }
   .content .box_images h1 {
-    margin: 0 0 130px;
+    margin: auto;
     font-size: 40px;
     line-height: 42px;
   }
@@ -229,9 +223,7 @@
     font-size: 22px;
     line-height: 26px;
   }
-  .checkout span {
-    margin: 12px 10px 12px 10px;
-  }
+
   .tools-nav {
     width: 165px;
   }
@@ -376,7 +368,7 @@
     vertical-align: middle;
   }
   .list-table .rows img {
-    margin: 0 auto 20px;
+    margin: auto;
     text-align: center;
     vertical-align: middle;
   }
@@ -384,7 +376,7 @@
     display: block;
     font-size: 18px;
     line-height: 22px;
-    margin: 0 0 20px;
+    margin: auto;
     color: #ea5f8a;
   }
   .rows-holder .rows {
@@ -399,7 +391,7 @@
   }
   .list-table .rows-delete {
     width: 40px;
-    margin: 0 0 0 auto;
+    margin: auto;
   }
   .list-table div.fancy-select {
     width: 77px;
@@ -444,7 +436,7 @@
     margin: 10px 0 10px;
   }
   .content .box_images h1 {
-    margin: 0 0 100px;
+    margin: auto;
   }
   .menu_trigger {
     top: 110px;
@@ -458,11 +450,11 @@
   .content .box_images h1 {
     font-size: 34px;
     line-height: 36px;
-    margin: 0 0 20px;
+    margin: auto;
   }
   .content .box_images h2 {
     font-size: 19px;
-    line-height: 21px;
+    line-height: auto;
   }
   .content .box_images .logo_2 {
     margin: 0 0 10px;
