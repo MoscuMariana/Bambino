@@ -1336,3 +1336,16 @@ div.selector select {
   display: block;
   border-radius: 5px;
 }
+
+h1 {
+  color: #ea5f8a;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
