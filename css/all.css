@@ -548,7 +548,7 @@ a:hover {
 }
 .container {
   position: relative;
-  margin: 28px 0 58px 0;
+  margin: 20px 0 58px 0;
 }
 .container .bottom-slider {
   width: 1130px;
@@ -566,7 +566,7 @@ a:hover {
   float: left;
   position: absolute;
   top: 14px;
-  left: 400px;
+  left: 200px;
   z-index: 100;
 }
 .container .bottom-slider p {
